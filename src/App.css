@@ -1148,14 +1148,15 @@ button {
   box-shadow: 1px 2px 2px rgba(55, 55, 55, 0.5);
   padding: 1rem;
   margin: 0 auto;
-  background-color: var(--panorama-clr-2);
+  font-weight: 800;
+  background: linear-gradient(90.21deg, var(--panorama-clr-2) -5.91%, var(--panorama-clr-3) 111.58%);
   /* margin-top: 0.rem; */
   /* color: var(--txt-clr-dark); */
   border-radius: 10px;
 
 }
 .package-button:hover {
-  background-color: white;
+  background: linear-gradient(90.21deg, var(--panorama-clr-4) -5.91%, var(--panorama-clr-1) 111.58%);
   color: var(--panorama-clr-2);
   box-shadow: -1px -1px 2px grey;
 }
