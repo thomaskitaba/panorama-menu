@@ -33,6 +33,9 @@ body {
 a {
   text-decoration: none;
 }
+.danger {
+  color: red;
+}
 #root {
   max-width: 1280px;
   margin: 40px auto;

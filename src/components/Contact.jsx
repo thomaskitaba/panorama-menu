@@ -85,7 +85,7 @@ const handelFormSubmit = async (e) => {
   if( tempStatus.success === false) {
     setStatus(tempStatus);
     setStatusError(true);
-    // setShowPopupMessage(!showPopupMessage);
+    setShowPopupMessage(true);
     // alert('Please fill all the fields'); // test output
     return;
   } else {
@@ -146,7 +146,7 @@ const handelFormSubmit = async (e) => {
   }
 }
 const handleShowMessage = () => {
-  // setShowPopupMessage(true);
+  setShowPopupMessage(true);
   let timeValue = 10000;
   if (tempStatus.success === false) {
     timeValue = 10000;
@@ -224,7 +224,7 @@ return (
             {/* <button onClick={(e)=> alert(status.message)}> test button </button> */}
             <Row>
               <Col md={4} sm={4} className="px-1">
-                <button type="submit" className="custom-button" onClick={(e)=> handleShowMessage()}><span>{buttonText}</span></button>
+                <button type="submit" className="custom-button" ><span>{buttonText}</span></button>
               </Col>
 
             </Row>
