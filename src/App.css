@@ -266,7 +266,7 @@ z-index: 5;
 }
 
 
-.nav-catagory:hover, .nav-comment:hover {
+.nav-catagory:hover, .nav-comment:hover{
   background-color: var(--txt-clr-dark);
   color: white;
 
@@ -1133,7 +1133,32 @@ button {
   color: white;
   box-shadow: -1px -1px 2px grey;
 }
+.package-button a {
+  text-decoration: none;
+  color: white;
+}
+.package-button {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid var(--clr-border-green);
+  box-shadow: 1px 2px 2px rgba(55, 55, 55, 0.5);
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: var(--panorama-clr-2);
+  /* margin-top: 0.rem; */
+  /* color: var(--txt-clr-dark); */
+  border-radius: 10px;
 
+}
+.package-button:hover {
+  background-color: white;
+  color: var(--panorama-clr-2);
+  box-shadow: -1px -1px 2px grey;
+}
 
 
 /****  PACKAGE *****/
@@ -1142,18 +1167,39 @@ button {
   position: relative;
   flex-direction: column;
   justify-content: center;
+
 }
 .package-header {
   color: var(--panorama-clr-2);
+  margin-top: -100px;
+
 }
 .Package-image {
   background-image: url(./assets/packages/package-diaspora.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 70vh;
+  height: 25vh;
   width: 100%;
-  margin-top: 10px;
+  margin: 0px 0px 100px 0px;
   border-radius: 20px;
   box-shadow: 0 0 8px rgba(55, 55, 55, 0.5);
+}
+@media (min-width: 767px) {
+  .Package-image {
+    background-image: url(./assets/packages/package-diaspora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(55, 55, 55, 0.5);
+  }
+  .package-header {
+
+    margin-top: 0px
+
+  }
 }
