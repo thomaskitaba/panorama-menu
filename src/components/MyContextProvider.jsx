@@ -12,7 +12,7 @@ const MyContextProvider = ({ children }) => {
   const [selectedItems, setSelectedItems] = useState([]);
   const [showOrderForm, setShowOrderForm] = useState(false);
   const [selectedTotal, setSelectedTotal] = useState(0);
-  const [showPopupMessage, setShowPopupMessage] = useState(false);
+  const [showPopupMessage, setShowPopupMessage] = useState(true);
   // const [showPopupMessageOrder, setShowPopupMessageOrder] = useState(false);
   const [status, setStatus] = useState({});
   // const [endpoint, setEndpoint] = useState('http://localhost:5000');
