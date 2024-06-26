@@ -7,7 +7,7 @@ import Holidays from './components/Holidays';
 import Messageoftheday from './components/Messageoftheday';
 import Menu from './components/Menu';
 import Catagory from './components/Catagory';
-import Welcome from './components/Welcome';
+import Package from './components/Package';
 import Navigation from './components/MegaMenuNavbar';
 import MegaMenuNavbar from './components/MegaMenuNavbar';
 
@@ -22,7 +22,7 @@ function App() {
           {/* <Holidays /> */}
           <Messageoftheday />
           <Menu />
-          <Welcome />
+          <Package />
         </MyContextProvider>
       </div>
     </>

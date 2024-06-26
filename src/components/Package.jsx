@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Welcome = () => {
+const Package = () => {
   return (
     <>
       <div className="package-container" id="packages">
@@ -14,4 +14,4 @@ const Welcome = () => {
     </>
   )
 }
-export default Welcome;
+export default Package;
