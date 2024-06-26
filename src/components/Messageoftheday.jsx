@@ -38,7 +38,7 @@ const HolidaysOfTheDay = () => {
   return (
     <>
     <div className="holiday-container">
-    <a href="#packages"><div className="package-button">Packages</div></a>
+    <a href="#packages"><div className="package-button">Check out our Packages</div></a>
       {holidays.length > 0 ? (
         <>
         <h3>Holidays of the Day</h3>
