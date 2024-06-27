@@ -52,7 +52,9 @@ a {
   align-items: center;
   gap: 20px;
   /* padding: 1rem; */
-  background-image: url(./assets/img/panoramaaddis.jpg);
+  /* background-image: url(./assets/img/panoramaaddis.jpg); */
+  /* background-image: url(https://media.istockphoto.com/id/1488517840/photo/smiling-receptionist-behind-the-hotel-counter-attending-to-a-female-guest-the-concierge-gives.webp?s=2048x2048&w=is&k=20&c=EurIPr85cgE2ZgVaJTB-kE3ZPSwkNVnfzXPn4HsjJCc=); */
+  background-image: url(https://media.istockphoto.com/id/1408797987/photo/chef-decorating-a-plate-while-working-in-the-kitchen-at-a-restaurant.webp?s=2048x2048&w=is&k=20&c=-rqjstap13BdGhzbpGQ1KMccV9-LFye8KaoTmu_o-Mg=);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -105,6 +107,7 @@ a {
 }
 
 a div {
+
   background-image: url(./assets/logo/panorama-logo.png);
   background-position: center;
   max-width: 100%; /* Ensure the image is responsive */
