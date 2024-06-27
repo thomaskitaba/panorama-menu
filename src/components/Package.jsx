@@ -15,12 +15,12 @@ const Package = () => {
       </div>
 
     </div>
-    <div className="package-container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', gap: '20px' }}>
+    <div className="package-container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
 
       {Packagejson.map((pkg, index) => (
         <>
         { pkg['package-availability'] === 'available' &&
-        <div key={index} style={{ border: '1px solid #ccc', borderRadius: '10px', margin: '10px', padding: '20px', width: '400px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
+        <div key={index} style={{ border: '1px solid #ccc', borderRadius: '10px', margin: '10px', padding: '20px', width: '350px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
           <img src={pkg['package-image']} alt={pkg['package-name']} style={{ width: '100%', borderRadius: '10px' }} />
           <h2>{pkg['package-name']}</h2>
           <p>{pkg['package-description']}</p>
