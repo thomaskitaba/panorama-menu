@@ -1167,16 +1167,29 @@ button {
 
 /****  PACKAGE *****/
 .package-container {
-  display: 'flex';
-  flex-wrap: 'wrap';
-  justify-content: 'space-around';
-  /* background-color: red; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
 
 }
+
+.package-container-content{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0 4px 8px var(--panorama-clr-1);
+
+}
+.package-container-images {
+  width: 100%;
+  border-radius: 20px;
+}
+
 .package-header {
   color: var(--panorama-clr-2);
   margin-top: -100px;
-
 }
 .about-packages {
   font-size: 1.25rem;
@@ -1192,22 +1205,4 @@ button {
   margin: 0px 0px 100px 0px;
   border-radius: 20px;
   box-shadow: 0 0 8px rgba(55, 55, 55, 0.5);
-}
-@media (min-width: 767px) {
-  .Package-image {
-    background-image: url(./assets/packages/package-diaspora.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 70vh;
-    width: 100%;
-    margin-top: 10px;
-    border-radius: 20px;
-    box-shadow: 0 0 8px rgba(55, 55, 55, 0.5);
-  }
-  .package-header {
-
-    margin-top: 0px
-
-  }
 }
