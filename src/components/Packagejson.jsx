@@ -1,7 +1,7 @@
 import packageDiaspora from './package-diaspora.jpg';
 import packageDiaspora2 from '../assets/packages/package-diaspora.jpg'
 
-const Packagejson = [{
+export const Packagejson = [{
   "package-name": "Diaspora",
   "package-price": "starting from $40",
   "package-description": "for diaspora and anyone intrested",
@@ -39,4 +39,8 @@ const Packagejson = [{
 }];
 
 
-export default Packagejson;
+export const Aboutpackage = [
+  {
+    "general-description": "This thoughtfully curated package offers an affordable and immersive journey, perfect for anyone interested in heritage and community. Join us for an unforgettable adventure that combines rich traditions with modern exploration, creating lasting memories and meaningful connections."
+  }
+]

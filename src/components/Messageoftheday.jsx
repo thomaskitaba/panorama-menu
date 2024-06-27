@@ -49,7 +49,8 @@ const HolidaysOfTheDay = () => {
         </ul>
         </>
       ) : (
-        <p>No holidays today.</p>
+        // <p>No holidays today.</p>
+        null
       )}
     </div>
 

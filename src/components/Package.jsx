@@ -1,11 +1,22 @@
 import React from 'react';
-import Packagejson from './Packagejson';
+import {Packagejson, Aboutpackage} from './Packagejson';
 // import {packagediaspora} from './package-diaspora.jpg';
 // import packageDiaspora from './package-diaspora.jpg';
 
 const Package = () => {
   return (
+    <>
+    <div className="package-header" id="packages">
+      <div><h1> Packages </h1></div>
+      <div className="about-packages">
+        <p>
+          {Aboutpackage[0]['general-description']}
+        </p>
+      </div>
+
+    </div>
     <div className="package-container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', gap: '20px' }}>
+
       {Packagejson.map((pkg, index) => (
         <>
         { pkg['package-availability'] === 'available' &&
@@ -22,6 +33,7 @@ const Package = () => {
         </>
       ))}
     </div>
+    </>
   );
 }
 
