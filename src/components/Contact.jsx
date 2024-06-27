@@ -109,6 +109,7 @@ const handelFormSubmit = async (e) => {
       },
       body: JSON.stringify(formData),
     });
+    
 
   setButtonText('Comment');
   setFname('');
@@ -198,7 +199,6 @@ return (
               <Col className="px-1">
                 <input type="email" placeholder="Email" name="email" value={email} onChange={ (e) => setEmail(e.target.value)} />
                 <input type="tel" value={phone} placeholder="Phone No." onChange={(e) => setPhone(e.target.value)}/>
-
                 <textarea placeholder="Comment" name="message" value={message} onChange={ (e) => {setMessage(e.target.value)} } />
 
                  <div className={showPopupMessage ? "popup-message" : ""}>

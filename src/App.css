@@ -1166,11 +1166,11 @@ button {
 
 
 /****  PACKAGE *****/
-.Package-container {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: center;
+.package-container {
+  display: 'flex';
+  flex-wrap: 'wrap';
+  justify-content: 'space-around';
+  /* background-color: red; */
 
 }
 .package-header {
